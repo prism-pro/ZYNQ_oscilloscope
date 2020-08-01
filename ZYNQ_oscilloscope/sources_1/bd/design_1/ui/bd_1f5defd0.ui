@@ -1,0 +1,33 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port dclk_in -pg 1 -y 190 -defaultsOSRD
+preplace port reset_in -pg 1 -y 210 -defaultsOSRD
+preplace portBus addra -pg 1 -y -190 -defaultsOSRD
+preplace portBus addrb -pg 1 -y -70 -defaultsOSRD
+preplace portBus doutb -pg 1 -y -30 -defaultsOSRD
+preplace portBus wea -pg 1 -y -110 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 2 -y -210 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y -90 -defaultsOSRD
+preplace inst xadc_wiz_0 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y -80 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y -110 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 2 -y -360 -defaultsOSRD
+preplace netloc addrb_1 1 0 3 -50J -30 830J -10 1090
+preplace netloc xadc_wiz_0_eoc_out 1 0 2 -30 -10 820
+preplace netloc xlconcat_0_dout 1 0 3 -20J 0 NJ 0 1070
+preplace netloc xlconstant_0_dout 1 1 1 NJ
+preplace netloc reset_in_1 1 0 1 -30
+preplace netloc blk_mem_gen_0_doutb 1 2 2 1100 30 1310J
+preplace netloc Net 1 0 3 N -190 830 -280 1090
+preplace netloc dclk_in_1 1 0 3 -60 -180 820 -270 1080
+preplace netloc wea_1 1 0 3 -50J -150 NJ -150 1070
+preplace netloc xlslice_0_Dout 1 1 2 840 -440 1100
+preplace netloc xadc_wiz_0_do_out 1 0 2 -40J -170 840J
+preplace netloc xadc_wiz_0_channel_out 1 1 1 840
+levelinfo -pg 1 -80 680 970 1210 1330 -top -500 -bot 340
+"
+}
+0
